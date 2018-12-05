@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4709319275867730}
   - component: {fileID: 33398584114678296}
   - component: {fileID: 23112503100459616}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4619648656338958}
   - component: {fileID: 33180907883231388}
   - component: {fileID: 23103388533451924}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4899681131747514}
   - component: {fileID: 33401950469003820}
   - component: {fileID: 23019123795201304}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 4670391565435352}
   - component: {fileID: 33415911833733162}
   - component: {fileID: 23353665371797414}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4291963538090470}
   - component: {fileID: 33563347273353794}
   - component: {fileID: 23009903759104214}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 4928574387548592}
   - component: {fileID: 33528508824012618}
   - component: {fileID: 23881066412429422}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 4615816664564218}
   - component: {fileID: 33305223209905396}
   - component: {fileID: 23749698773411454}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 4395661404327964}
   - component: {fileID: 33139781848743718}
   - component: {fileID: 23179153303006224}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 4504953833837036}
   - component: {fileID: 33799303325097900}
   - component: {fileID: 23877377872870290}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4718146705840052}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 4132163393724132}
   - component: {fileID: 33220115273653428}
   - component: {fileID: 23378823363298332}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4722697399684866}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: eDummy01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 4044103211858324}
   - component: {fileID: 33912098160408288}
   - component: {fileID: 23356042507747468}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 4368696632324572}
   - component: {fileID: 33206539545954140}
   - component: {fileID: 23716716819246720}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 4309338324413478}
   - component: {fileID: 33634013790916488}
   - component: {fileID: 23299918757154842}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   - component: {fileID: 4007927317360854}
   - component: {fileID: 33350128948606474}
   - component: {fileID: 23992823497483078}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 4340417503614214}
   - component: {fileID: 33180109858129324}
   - component: {fileID: 23289600603230550}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 4954337410581024}
   - component: {fileID: 33462507411697694}
   - component: {fileID: 23924575554484546}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 4670245299048754}
   - component: {fileID: 33598860898122220}
   - component: {fileID: 23069434085916072}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 4924371071950868}
   - component: {fileID: 33385899265727708}
   - component: {fileID: 23679155038578710}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 4541762044044412}
   - component: {fileID: 33782227225467062}
   - component: {fileID: 23197739040756426}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 4787473258665770}
   - component: {fileID: 33615710506281354}
   - component: {fileID: 23834781449266920}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +391,7 @@ GameObject:
   - component: {fileID: 4752660570295912}
   - component: {fileID: 33464531825872254}
   - component: {fileID: 23811606086483870}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +406,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4407665897149230}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 4531436315022836}
   - component: {fileID: 33611009401198288}
   - component: {fileID: 23293789877833700}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 4512658689239748}
   - component: {fileID: 33991258275115726}
   - component: {fileID: 23309646710765764}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: 4625478693303008}
   - component: {fileID: 33668505533354042}
   - component: {fileID: 23351197078389692}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 4718190463695692}
   - component: {fileID: 33295661097657526}
   - component: {fileID: 23885757713515774}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 4224432218775288}
   - component: {fileID: 33054202596187692}
   - component: {fileID: 23809055049142804}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +506,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4708666797425638}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildDxD140
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -521,7 +521,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4367893637878040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 4262187961108502}
   - component: {fileID: 33833634332804536}
   - component: {fileID: 23788572241944130}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +555,7 @@ GameObject:
   - component: {fileID: 4420262377581480}
   - component: {fileID: 33394489736358386}
   - component: {fileID: 23308257812617570}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -572,7 +572,7 @@ GameObject:
   - component: {fileID: 4184332536041796}
   - component: {fileID: 33219312599955686}
   - component: {fileID: 23556309981173812}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 4692388355204754}
   - component: {fileID: 33256060180979516}
   - component: {fileID: 23596138905900872}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 4565785008010066}
   - component: {fileID: 33696853433371756}
   - component: {fileID: 23473324715827038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +623,7 @@ GameObject:
   - component: {fileID: 4549435718307776}
   - component: {fileID: 33428557328217640}
   - component: {fileID: 23870065862327382}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 4861877899777366}
   - component: {fileID: 33064776219555978}
   - component: {fileID: 23551211911601156}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,7 +657,7 @@ GameObject:
   - component: {fileID: 4300840930488662}
   - component: {fileID: 33960884924110808}
   - component: {fileID: 23162122880907116}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,7 +672,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4075580494757496}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 4552305453996284}
   - component: {fileID: 33681900352555988}
   - component: {fileID: 23788759287893592}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -704,7 +704,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4568981615802640}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -721,7 +721,7 @@ GameObject:
   - component: {fileID: 4028008712563698}
   - component: {fileID: 33867187748712230}
   - component: {fileID: 23751872615904234}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -738,7 +738,7 @@ GameObject:
   - component: {fileID: 4706825741387752}
   - component: {fileID: 33750375786722238}
   - component: {fileID: 23236988218662068}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -753,7 +753,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4733781784144282}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -770,7 +770,7 @@ GameObject:
   - component: {fileID: 4847613825569196}
   - component: {fileID: 33925674790123876}
   - component: {fileID: 23247651476930094}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -787,7 +787,7 @@ GameObject:
   - component: {fileID: 4493496173595258}
   - component: {fileID: 33759973013998368}
   - component: {fileID: 23667837841137788}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -804,7 +804,7 @@ GameObject:
   - component: {fileID: 4399111326750472}
   - component: {fileID: 33127063557106992}
   - component: {fileID: 23703849752644650}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 4602098000886764}
   - component: {fileID: 33616823919755550}
   - component: {fileID: 23685775226130734}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -838,7 +838,7 @@ GameObject:
   - component: {fileID: 4548557975983796}
   - component: {fileID: 33155186287268022}
   - component: {fileID: 23394281288043396}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -855,7 +855,7 @@ GameObject:
   - component: {fileID: 4208753985549828}
   - component: {fileID: 33201382467710952}
   - component: {fileID: 23483074196834904}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -872,7 +872,7 @@ GameObject:
   - component: {fileID: 4347700331301678}
   - component: {fileID: 33687198131848292}
   - component: {fileID: 23116725053485076}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -887,7 +887,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4304988752164744}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: eVRayLight02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -904,7 +904,7 @@ GameObject:
   - component: {fileID: 4012352956264608}
   - component: {fileID: 33294391184786536}
   - component: {fileID: 23612037607353498}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -923,7 +923,7 @@ GameObject:
   - component: {fileID: 114414146793046206}
   - component: {fileID: 65638769717900112}
   - component: {fileID: 54409301148416036}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: House5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -938,7 +938,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4326210782761678}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: building112
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -955,7 +955,7 @@ GameObject:
   - component: {fileID: 4035685926040830}
   - component: {fileID: 33949455698436352}
   - component: {fileID: 23554137226974054}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -972,7 +972,7 @@ GameObject:
   - component: {fileID: 4625685434921682}
   - component: {fileID: 33126539236123430}
   - component: {fileID: 23898689462455370}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: buildEFl36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3776,7 +3776,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 1
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!65 &65638769717900112
@@ -3789,7 +3789,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 5, y: 5, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &95671053689931562
 Animator:

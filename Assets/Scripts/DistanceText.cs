@@ -26,15 +26,18 @@ public class DistanceText  : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        playTime = Time.time - startTime;
-        if (playTime - timeInterval > 30.0f)
+        if (PlayerController.instance.canMove)
         {
-            distanceMultiplier += distanceBoost;
-            timeInterval += 30.0f;
+            playTime = Time.time - startTime;
+            if (playTime - timeInterval > 30.0f)
+            {
+                distanceMultiplier += distanceBoost;
+                timeInterval += 30.0f;
+            }
+
+            Distance = playTime * distanceMultiplier;
+
+            distanceDisplay.text = "Distance Travelled: " + Distance.ToString("F3") + "m";
         }
-
-        Distance = playTime * distanceMultiplier;
-
-        distanceDisplay.text = "Distance Travelled: " + Distance.ToString("F3") + "m";
     }
 }
