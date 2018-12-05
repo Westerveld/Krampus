@@ -4,16 +4,47 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public float zSpawnInterval = 12.5f;
+    public static GameManager instance;
 
+    public float lastZ, defY = -30, xPos, defX;
+    public float obstacleSpeed;
+
+    float spawnTime, spawnInterval = 2.5f;
+
+    public int spawnWidth;
 	// Use this for initialization
 	void Start ()
     {
-		
+        instance = this;
+        for (int i = 0; i < 10; i++)
+        {
+            
+            SpawnNewObstacle();
+            lastZ += zSpawnInterval;
+        }
+
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-		
+		if(spawnTime < Time.time)
+        {
+            spawnTime += spawnInterval;
+            SpawnNewObstacle();
+        }
 	}
+
+    public void SpawnNewObstacle()
+    {
+        xPos = defX;
+        for (int i = 0; i < spawnWidth; i++)
+        {
+            xPos += 19.0f;
+            ObstaclePool.instance.SpawnObstacle(new Vector3(xPos, defY, lastZ), -obstacleSpeed);
+        }
+
+        lastZ += zSpawnInterval;
+    }
 }

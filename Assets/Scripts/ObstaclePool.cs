@@ -30,7 +30,7 @@ public class ObstaclePool : MonoBehaviour {
 	}
 	
 
-    void SpawnObstacle(Vector3 pos, float speed)
+    public void SpawnObstacle(Vector3 pos, float speed)
     {
         foreach(GameObject o in obstacles)
         {

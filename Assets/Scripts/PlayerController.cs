@@ -54,4 +54,13 @@ public class PlayerController : MonoBehaviour {
         transform.position = playerPos;
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.layer == LayerMask.NameToLayer("Rooftop"))
+        {
+            GetComponent<Rigidbody>().isKinematic = false;
+            GetComponent<Rigidbody>().AddForce(new Vector3(10, 10, 0), ForceMode.Impulse);
+        }
+    }
+
 }
