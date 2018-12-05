@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 1ac3f71f693f1e74493571950821223a
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BeardSides
+    100002: BeardSides001
+    100004: BG
+    100006: BobHat
+    100008: Camera001
+    100010: Camera001.Target
+    100012: GrampsHead
+    100014: Hat
+    100016: HatFur
+    100018: LeftHand
+    100020: Lids
+    100022: PhotometricLight001
+    100024: Plane001
+    100026: Plane002
+    100028: Plane003
+    100030: Pupils
+    100032: RightHand
+    100034: Santa
+    100036: SantaBeard
+    100038: SantaBody
+    100040: SantaHair
+    100042: SantaHat
+    100044: SantaHead
+    100046: SantaHead 1
+    100048: SantaHeadDone
+    100050: SantaLeftBoot
+    100052: SantaPants
+    100054: SantaRightBoot
+    100056: //RootNode
+    100058: SantasCoat
+    100060: SantaTash
+    100062: SnowFloor
+    100064: TPhotometricLight001
+    100066: TPhotometricLight001.Target
+    400000: BeardSides
+    400002: BeardSides001
+    400004: BG
+    400006: BobHat
+    400008: Camera001
+    400010: Camera001.Target
+    400012: GrampsHead
+    400014: Hat
+    400016: HatFur
+    400018: LeftHand
+    400020: Lids
+    400022: PhotometricLight001
+    400024: Plane001
+    400026: Plane002
+    400028: Plane003
+    400030: Pupils
+    400032: RightHand
+    400034: Santa
+    400036: SantaBeard
+    400038: SantaBody
+    400040: SantaHair
+    400042: SantaHat
+    400044: SantaHead
+    400046: SantaHead 1
+    400048: SantaHeadDone
+    400050: SantaLeftBoot
+    400052: SantaPants
+    400054: SantaRightBoot
+    400056: //RootNode
+    400058: SantasCoat
+    400060: SantaTash
+    400062: SnowFloor
+    400064: TPhotometricLight001
+    400066: TPhotometricLight001.Target
+    2000000: Camera001
+    2100000: SantaFront
+    2100002: SantaLeft
+    2100004: No Name
+    2100006: 'Material #49'
+    2100008: 'Material #26'
+    2100010: Boot
+    2100012: 'Material #13'
+    2100014: 'Material #14'
+    2100016: Gloves
+    2100018: xMasFur
+    2100020: 'Material #61'
+    2100022: 'Material #25'
+    2100024: effect-material-Shirt
+    2100026: effect-material-Skin
+    2100028: effect-material-Button
+    2100030: effect-material-InnerMouth
+    2100032: effect-material-EyeWhite
+    2100034: effect-material-EyeBrow
+    2100036: 'Material #35'
+    2100038: effect-material-Mustache
+    2100040: Pupils
+    2100042: Lids
+    2100044: 'Material #62'
+    2100046: 'Material #63'
+    2300000: BeardSides
+    2300002: BeardSides001
+    2300004: BG
+    2300006: BobHat
+    2300008: GrampsHead
+    2300010: Hat
+    2300012: HatFur
+    2300014: LeftHand
+    2300016: Lids
+    2300018: Plane001
+    2300020: Plane002
+    2300022: Plane003
+    2300024: Pupils
+    2300026: RightHand
+    2300028: SantaBeard
+    2300030: SantaHair
+    2300032: SantaLeftBoot
+    2300034: SantaPants
+    2300036: SantaRightBoot
+    2300038: SantasCoat
+    2300040: SantaTash
+    2300042: SnowFloor
+    3300000: BeardSides
+    3300002: BeardSides001
+    3300004: BG
+    3300006: BobHat
+    3300008: GrampsHead
+    3300010: Hat
+    3300012: HatFur
+    3300014: LeftHand
+    3300016: Lids
+    3300018: Plane001
+    3300020: Plane002
+    3300022: Plane003
+    3300024: Pupils
+    3300026: RightHand
+    3300028: SantaBeard
+    3300030: SantaHair
+    3300032: SantaLeftBoot
+    3300034: SantaPants
+    3300036: SantaRightBoot
+    3300038: SantasCoat
+    3300040: SantaTash
+    3300042: SnowFloor
+    4300000: Plane001
+    4300002: Plane002
+    4300004: Plane003
+    4300006: SantaPants
+    4300008: SantaLeftBoot
+    4300010: SantaRightBoot
+    4300012: SantasCoat
+    4300014: LeftHand
+    4300016: RightHand
+    4300018: BobHat
+    4300020: Hat
+    4300022: HatFur
+    4300024: SantaBeard
+    4300026: SantaTash
+    4300028: BeardSides
+    4300030: BeardSides001
+    4300032: SantaHair
+    4300034: GrampsHead
+    4300036: Pupils
+    4300038: Lids
+    4300040: SnowFloor
+    4300042: BG
+    10800000: PhotometricLight001
+    10800002: TPhotometricLight001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
