@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        playerInput.Set(0, Input.GetAxis("Horizontal"), 0);
+        playerInput.Set(Input.GetAxis("Horizontal"), 0,  0);
         playerPos = transform.position;
         Move();
 	}
@@ -31,9 +31,9 @@ public class PlayerController : MonoBehaviour {
     void Move()
     {
         playerPos += playerInput * moveSpeed;
-        transform.rotation = Quaternion.Euler(new Vector3((-Mathf.Sin(Time.time * rotXMultiplier) * rotAmount.x),
-            playerInput.y * rotAmount.y,
-            -playerInput.y * rotAmount.z));
+        transform.rotation = Quaternion.Euler(new Vector3((-Mathf.Cos(Time.time * rotXMultiplier) * rotAmount.x),
+            playerInput.x * rotAmount.y,
+            -playerInput.x * rotAmount.z));
 
         ClampMovement();
     }
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour {
             playerPos.x = barrier.xMin;
         }
 
-        playerPos.y = Mathf.Sin(Time.time ) * (barrier.height /2);
+        playerPos.y = Mathf.Sin(Time.time * rotXMultiplier) * (barrier.height /2);
         transform.position = playerPos;
     }
 
