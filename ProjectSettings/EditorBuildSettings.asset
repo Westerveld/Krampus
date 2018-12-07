@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 7a47d6c27d9055b4aa5ca15fd30a187a
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/EthanTest.unity
+    guid: 291412bd4c6488f428d1cc0b37b4cbbd
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: 2923d48b53b47ab4eb47992cf94634e2
+    path: Assets/Scenes/Game Over.unity
+    guid: 0d40d34beaaed0f469ed07f207b23fd1
   m_configObjects: {}

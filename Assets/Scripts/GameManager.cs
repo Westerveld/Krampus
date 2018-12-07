@@ -12,12 +12,13 @@ public class GameManager : MonoBehaviour
 
     float spawnTime, spawnInterval = 2.5f;
 
+	public float multiplier;
     public int spawnWidth;
 	// Use this for initialization
 	void Start ()
     {
         instance = this;
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 20; i++)
         {
             
             SpawnNewObstacle();
@@ -32,6 +33,10 @@ public class GameManager : MonoBehaviour
 		if(spawnTime < Time.time)
         {
             spawnTime += spawnInterval;
+			if(spawnInterval > 0.1f)
+			{
+				spawnInterval -= 0.01f;
+			}
             SpawnNewObstacle();
         }
 	}
@@ -44,7 +49,7 @@ public class GameManager : MonoBehaviour
             xPos += 19.0f;
             ObstaclePool.instance.SpawnObstacle(new Vector3(xPos, defY, lastZ), -obstacleSpeed);
         }
-
-        lastZ += zSpawnInterval;
+		multiplier += 0.05f;
+        //lastZ += zSpawnInterval;
     }
 }

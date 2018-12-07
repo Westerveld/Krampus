@@ -17,34 +17,27 @@ public class PlayerController : MonoBehaviour {
     public Vector3 rotAmount;
     public float rotXMultiplier;
     Vector3 playerInput;
+
+	Rigidbody rigid;
     // Use this for initialization
     void Start ()
     {
+		rigid = GetComponent<Rigidbody>();
         instance = this;
         playerPos = transform.position;
         canMove = true;
     }
 	
 	// Update is called once per frame
-	void Update ()
+	void FixedUpdate ()
     {
-        int layerMask = LayerMask.GetMask("RoofTop");
-        if (Physics.Raycast(transform.position, -transform.up, 5.0f, layerMask))
-        {
-            canMove = false;
-            print("Colliding");
-            canMove = false;
-            GetComponent<Rigidbody>().isKinematic = false;
-            GetComponent<Rigidbody>().useGravity = true;
-            GetComponent<Rigidbody>().AddForce(new Vector3(10, 10, 0), ForceMode.Impulse);
-            StartCoroutine(LoadScene());
-        }
-
+		
         if (canMove)
         {
             playerInput.Set(Input.GetAxis("Horizontal"), 0, 0);
             playerPos = transform.position;
             Move();
+			CheckCollision();
         }
 	}
 
@@ -52,7 +45,7 @@ public class PlayerController : MonoBehaviour {
     void Move()
     {
         playerPos += playerInput * moveSpeed;
-        transform.rotation = Quaternion.Euler(new Vector3((-Mathf.Cos(Time.time * rotXMultiplier) * rotAmount.x),
+        transform.rotation = Quaternion.Euler(new Vector3((-Mathf.Cos(Time.time * rotXMultiplier) * GameManager.instance.multiplier),
             playerInput.x * rotAmount.y,
             -playerInput.x * rotAmount.z));
 
@@ -72,7 +65,8 @@ public class PlayerController : MonoBehaviour {
         }
 
         playerPos.y = Mathf.Sin(Time.time * rotXMultiplier) * (barrier.height /2);
-        transform.position = playerPos;
+		rigid.MovePosition(playerPos);
+        //transform.position = playerPos;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -91,6 +85,22 @@ public class PlayerController : MonoBehaviour {
     {
         yield return new WaitForSeconds(3.0f);
 
-        SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene("Game Over");
     }
+
+	void CheckCollision()
+	{
+		int mask = LayerMask.GetMask("RoofTop");
+		Collider[] cols = Physics.OverlapBox((transform.position + new Vector3(0.0f, 0.5f, -1.0f)), new Vector3(0.5f, 0.5f, 3.0f), Quaternion.identity, mask);
+
+		if(cols.Length > 0)
+		{
+			//print("Colliding");
+			canMove = false;
+			GetComponent<Rigidbody>().isKinematic = false;
+			GetComponent<Rigidbody>().useGravity = true;
+			GetComponent<Rigidbody>().AddForce(new Vector3(10, 10, 0), ForceMode.Impulse);
+			StartCoroutine(LoadScene());
+		}
+	}
 }

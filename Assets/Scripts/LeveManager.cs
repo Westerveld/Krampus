@@ -17,7 +17,7 @@ public class LeveManager : MonoBehaviour {
 	void Update ()
     {
 
-        if (Input.GetKeyDown("joystick button 0"))
+        if (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown(KeyCode.Space))
         {
             SceneManager.LoadScene(loadLevel);
         }

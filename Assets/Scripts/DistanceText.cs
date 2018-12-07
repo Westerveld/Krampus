@@ -19,6 +19,7 @@ public class DistanceText  : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+		playTime = 0;
         startTime = Time.time;
         distanceDisplay = GetComponent<TextMeshProUGUI>();
     }
@@ -28,16 +29,17 @@ public class DistanceText  : MonoBehaviour {
     {
         if (PlayerController.instance.canMove)
         {
-            playTime = Time.time - startTime;
-            if (playTime - timeInterval > 30.0f)
-            {
-                distanceMultiplier += distanceBoost;
-                timeInterval += 30.0f;
-            }
+            playTime += (Time.deltaTime * GameManager.instance.multiplier);
 
-            Distance = playTime * distanceMultiplier;
+            //if (playTime - timeInterval > 30.0f)
+            //{
+            //    distanceMultiplier += (distanceBoost * GameManager.instance.multiplier);
+            //    timeInterval += 30.0f;
+            //}
 
-            distanceDisplay.text = "Distance Travelled: " + Distance.ToString("F3") + "m";
+            //Distance = playTime * distanceMultiplier;
+
+            distanceDisplay.text = "Distance Travelled: " + playTime.ToString("F2") + "m";
         }
     }
 }
